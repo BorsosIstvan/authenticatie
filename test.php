@@ -15,7 +15,7 @@ session_start();
 
     <?php if (isset($_SESSION['username'])): ?>
       <p>Welkom, <strong><?= htmlspecialchars($_SESSION['username']) ?></strong>!</p>
-      <p><a href="php/logout.php">Uitloggen</a></p>
+      <p><a href="logout.php">Uitloggen</a></p>
     <?php else: ?>
       <p>Je bent niet ingelogd.</p>
       <p><a href="index.php">Inloggen</a></p>
