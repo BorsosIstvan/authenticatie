@@ -7,7 +7,7 @@ session_start();
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Test Pagina</title>
-  <link rel="stylesheet" href="css/stijl.css" />
+  <link rel="stylesheet" href="stijl.css" />
 </head>
 <body>
   <div class="container">
@@ -18,7 +18,7 @@ session_start();
       <p><a href="php/logout.php">Uitloggen</a></p>
     <?php else: ?>
       <p>Je bent niet ingelogd.</p>
-      <p><a href="index.html">Inloggen</a></p>
+      <p><a href="index.php">Inloggen</a></p>
     <?php endif; ?>
   </div>
 </body>
