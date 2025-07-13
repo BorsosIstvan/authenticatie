@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
-<head><title>Inloggen</title></head>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Inloggen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h2>Inloggen</h2>
-  <form action="login.php" method="POST">
-    Gebruikersnaam: <input type="text" name="username" required><br>
-    Wachtwoord: <input type="password" name="password" required><br>
-    <input type="submit" value="Inloggen">
-  </form>
-  <a href="register.html">Nog geen account? Aanmelden</a>
+    <div class="container">
+        <h1>Inloggen</h1>
+        <form action="login.php" method="POST">
+            <input type="text" name="username" placeholder="Gebruikersnaam" required>
+            <input type="password" name="password" placeholder="Wachtwoord" required>
+            <button type="submit" class="button">Inloggen</button>
+        </form>
+        <p style="margin-top: 20px;">Nog geen account? <a href="register.html">Registreren</a></p>
+    </div>
 </body>
 </html>
