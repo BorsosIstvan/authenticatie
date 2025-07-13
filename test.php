@@ -13,6 +13,7 @@
         <h1>Welkom, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
         <p>Je bent succesvol ingelogd.</p>
         <a href="logout.php" class="button">Uitloggen</a>
+        <a href="login.php" class="button">Inloggen</a>
     </div>
 
 </body>
