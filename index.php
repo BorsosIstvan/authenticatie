@@ -18,6 +18,15 @@ if (!isset($_SESSION['username'])) {
         <h1>Welkom, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
         <p>Je bent succesvol ingelogd.</p>
         <a href="logout.php" class="button">Uitloggen</a>
+        <div>
+            <h1>JS test</h1>
+            <button onclick="function()">Function</button>
+        </div>
     </div>
+    <script>
+        function function() {
+        alert("Hallo wereld!");
+        }
+    </script>
 </body>
 </html>
