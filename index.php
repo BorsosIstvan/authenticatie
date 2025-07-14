@@ -20,11 +20,11 @@ if (!isset($_SESSION['username'])) {
         <a href="logout.php" class="button">Uitloggen</a>
         <div>
             <h1>JS test</h1>
-            <button onclick="function()">Function</button>
+            <button onclick="zegHoi()">Function</button>
         </div>
     </div>
     <script>
-        function function() {
+        function zegHoi() {
         alert("Hallo wereld!");
         }
     </script>
